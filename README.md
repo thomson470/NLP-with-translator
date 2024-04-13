@@ -15,10 +15,10 @@ docker run -d --name nlp-with-translator -p 5001:80 nlp-with-translator
 
 ## API
 Parameter:
-* `__translate__` (**Optional**) flag untuk melakukan penerjemahan atau tidak (default: `false`). Bahasa yang akan diproses adalah bahasa Inggris.
-* `__from__` (**Optional**) kode bahasa input (default: `auto`).
-* `__to__` (**Optional**) kode bahasa output (default: `auto`).
-* `__text__` (**Mandatory**) teks yang akan dianalisa sentimennya. Jika berbahasa inggris parameter `translate` di-_set_ `false`.
+* `translate` (_Optional_) flag untuk melakukan penerjemahan atau tidak (default: `false`). Bahasa yang akan diproses adalah bahasa Inggris.
+* `from` (_Optional_) kode bahasa input (default: `auto`).
+* `to` (_Optional_) kode bahasa output (default: `auto`).
+* `text` (_Mandatory_) teks yang akan dianalisa sentimennya. Jika berbahasa inggris parameter `translate` di-_set_ `false`.
 > Kode bahasa bisa dilihat di [Google](https://translate.google.com/)
 
 ### Translate (/Translate)
