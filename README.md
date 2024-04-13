@@ -15,14 +15,14 @@ docker run -d --name nlp-with-translator -p 5001:80 nlp-with-translator
 
 ## API
 Parameter:
-* `**translate**` (**Optional**) flag untuk melakukan penerjemahan atau tidak (default: false). Bahasa yang akan diproses adalah bahasa Inggris.
+* **`translate`** (**Optional**) flag untuk melakukan penerjemahan atau tidak (default: `false`). Bahasa yang akan diproses adalah bahasa Inggris.
 * `**from**` (**Optional**) kode bahasa input (default: `auto`).
 * `**to**` (**Optional**) kode bahasa output (default: `auto`).
-* `text` (**Mandatory**) teks yang akan dianalisa sentimennya. Jika berbahasa inggris parameter `**translate**` di-_set_ false.
+* `text` (**Mandatory**) teks yang akan dianalisa sentimennya. Jika berbahasa inggris parameter `**translate**` di-_set_ `false`.
 > Kode bahasa bisa dilihat di [Google](https://translate.google.com/)
 
 ### Translate (/Translate)
-```js
+```json
 # REQUEST
 {
     "translate": true,
@@ -40,7 +40,7 @@ Parameter:
 ```
 
 ### VaderStandard (/VaderStandard)
-```js
+```json
 # REQUEST
 {
     "translate": true,
@@ -60,7 +60,7 @@ Parameter:
 
 ### VaderFinancial (/VaderFinancial)
 Analisa sentimen untuk bidang ekonomi dan finansial.
-```js
+```json
 # REQUEST
 {
     "translate": true,
@@ -79,7 +79,7 @@ Analisa sentimen untuk bidang ekonomi dan finansial.
 ```
 
 ### NaiveBayes (/NaiveBayes)
-```js
+```json
 # REQUEST
 {
     "translate": true,
@@ -96,7 +96,7 @@ Analisa sentimen untuk bidang ekonomi dan finansial.
 ```
 
 ### TextBlob (/TextBlob)
-```js
+```json
 # REQUEST
 {
     "translate": true,
