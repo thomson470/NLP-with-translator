@@ -6,7 +6,7 @@
 # docker run -d --name nlp-with-translator -p 5001:80 nlp-with-translator
 # 
 ##
-FROM python:3.11.3
+FROM python:3.11.3-alpine
 WORKDIR /code
 RUN python -m pip install --upgrade pip
 COPY ./requirements.txt /code/requirements.txt
