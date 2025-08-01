@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "69a5738b-8a57-4dd5-82cb-ff01bc28993f",
+		"name": "NLP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30184491"
+	},
+	"item": [
+		{
+			"name": "Translate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translate\": true,\n    \"to\": \"ja\",\n    \"text\": \"Di tengah gaya hidup modern Indonesia, di mana teknologi menjadi bagian tak terpisahkan dari keseharian, kebutuhan akan kebersihan gigi yang optimal mendorong meningkatnya popularitas sikat gigi elektrik. Memasuki tahun 2024, pasar Indonesia dipenuhi dengan berbagai pilihan inovatif yang dirancang untuk meningkatkan rutinitas perawatan mulut kita. Mulai dari desain yang elegan hingga teknologi pintar, sikat gigi ini berjanji untuk mengubah kegiatan menyikat yang monoton menjadi pengalaman yang dinamis, memastikan senyum kita tetap berkilau secerah skyline kota.\\nSeiring Indonesia terus menyambut perpaduan teknologi dan kesejahteraan, sikat gigi elektrik ini berada di garis depan, menawarkan perpaduan inovasi, efisiensi, dan kenyamanan. Mereka tidak hanya menjanjikan senyum yang lebih cerah tetapi juga mencerminkan etos negara ini dalam merangkul masa depan.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/Translate",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Translate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VaderStandard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translate\": true,\n    \"text\": \"Di tengah gaya hidup modern Indonesia, di mana teknologi menjadi bagian tak terpisahkan dari keseharian, kebutuhan akan kebersihan gigi yang optimal mendorong meningkatnya popularitas sikat gigi elektrik.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/VaderStandard",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"VaderStandard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VaderFinancial",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translate\": true,\n    \"text\": \"Di tengah gaya hidup modern Indonesia, di mana teknologi menjadi bagian tak terpisahkan dari keseharian, kebutuhan akan kebersihan gigi yang optimal mendorong meningkatnya popularitas sikat gigi elektrik.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/VaderFinancial",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"VaderFinancial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NaiveBayes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translate\": true,\n    \"text\": \"Di tengah gaya hidup modern Indonesia, di mana teknologi menjadi bagian tak terpisahkan dari keseharian, kebutuhan akan kebersihan gigi yang optimal mendorong meningkatnya popularitas sikat gigi elektrik. Memasuki tahun 2024, pasar Indonesia dipenuhi dengan berbagai pilihan inovatif yang dirancang untuk meningkatkan rutinitas perawatan mulut kita. Mulai dari desain yang elegan hingga teknologi pintar, sikat gigi ini berjanji untuk mengubah kegiatan menyikat yang monoton menjadi pengalaman yang dinamis, memastikan senyum kita tetap berkilau secerah skyline kota.\\nSeiring Indonesia terus menyambut perpaduan teknologi dan kesejahteraan, sikat gigi elektrik ini berada di garis depan, menawarkan perpaduan inovasi, efisiensi, dan kenyamanan. Mereka tidak hanya menjanjikan senyum yang lebih cerah tetapi juga mencerminkan etos negara ini dalam merangkul masa depan.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/NaiveBayes",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"NaiveBayes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TextBlob",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translate\": true,\n    \"text\": \"Di tengah gaya hidup modern Indonesia, di mana teknologi menjadi bagian tak terpisahkan dari keseharian, kebutuhan akan kebersihan gigi yang optimal mendorong meningkatnya popularitas sikat gigi elektrik.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/TextBlob",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"TextBlob"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
